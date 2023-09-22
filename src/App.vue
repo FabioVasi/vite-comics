@@ -19,7 +19,6 @@
 <template>
 
   <HeaderComics/>
-  <LogoComics/>
   <MainComics/>
   <FooterComics/>
 
