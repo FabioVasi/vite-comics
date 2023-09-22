@@ -46,7 +46,7 @@
     <div class="heroes d-flex">
         <div class="container p-0 d-flex justify-content-between">
             <div class="d-flex justify-content-evenly">
-                <ul class="lists list-unstyled pt-5 m-0 pb-5 pe-5">
+                <ul class="lists list-unstyled pt-4 m-0 pb-5 pe-5">
                 <li>
                     <h3 class="text-white pt-3 pb-3 m-0">DC COMICS</h3>
                 </li>
@@ -63,7 +63,7 @@
                 <li class="fw-medium pt-1 pb-1">Shop DC</li>
                 <li class="fw-medium pt-1 pb-1">Shop DC Collectibles</li>
             </ul>
-            <ul class="lists list-unstyled pt-5 m-0 pb-5 pe-5">
+            <ul class="lists list-unstyled pt-4 m-0 pb-5 pe-5">
                 <li>
                     <h3 class="text-white pt-3 pb-3 m-0">DC</h3>
                 </li>
@@ -79,7 +79,7 @@
                 <li class="fw-medium pt-1 pb-1">Shop Help</li>
                 <li class="fw-medium pt-1 pb-1">Contact Us</li>
             </ul>
-            <ul class="lists list-unstyled pt-5 m-0 pb-5 pe-5">
+            <ul class="lists list-unstyled pt-4 m-0 pb-5 pe-5">
                 <li>
                     <h3 class="text-white pt-3 pb-3 m-0">SITES</h3>
                 </li>

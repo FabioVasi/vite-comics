@@ -16,9 +16,9 @@
 
   <header id="header_comics" class="d-flex align-items-center">
 
-    <div class="container p-0 d-flex justify-content-between align-items-center">
+    <div class="container h-100 p-0 d-flex justify-content-between align-items-center">
       <LogoComics/>
-      <nav class="navbar navbar-expand">
+      <nav class="navbar h-100 navbar-expand">
           <ul class="nav navbar-nav">
             <li class="nav-item fw-bold fs-5">
               <a class="nav-link" href="#">CHARACFTERS</a>
