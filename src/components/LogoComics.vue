@@ -2,7 +2,7 @@
   export default {
     data() {
       return {
-        
+        name: 'DcLogo'
       }
     }
   }
@@ -10,10 +10,12 @@
 
 <template>
 
-  
+  <div class="logo">
+    <img src="../assets/img/dc-logo.png" alt="DC">
+  </div>
 
 </template>
 
-<style>
+<style lang="scss">
 
 </style>
