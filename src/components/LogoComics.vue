@@ -11,7 +11,7 @@
 <template>
 
   <div class="logo">
-    <img height="100px" src="../assets/img/dc-logo.png" alt="DC">
+    <img src="../assets/img/dc-logo.png" alt="DC">
   </div>
 
 </template>

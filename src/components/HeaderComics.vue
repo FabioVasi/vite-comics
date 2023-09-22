@@ -15,7 +15,6 @@
 <template>
 
   <header id="header_comics" class="d-flex justify-content-evenly align-items-center">
-
     <LogoComics/>
     <nav class="navbar navbar-expand">
         <ul class="nav navbar-nav">
@@ -62,7 +61,7 @@
   @use '../assets/scss/partials/variable.scss' as *;
 
   #header_comics{
-    height: 120px;
+    height: 150px;
 
     a.active {
       color: $color_dclogo;

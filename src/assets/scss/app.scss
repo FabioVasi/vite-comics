@@ -2,5 +2,10 @@
 
 @use './partials/variable.scss' as *;
 
-
-
+#main_comics {
+    background-color: $bg_dcmain;
+    
+}
+.merchandise{
+    background-color: $color_dclogo;
+}
