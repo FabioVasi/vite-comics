@@ -21,7 +21,7 @@
       <nav class="navbar h-100 navbar-expand">
           <ul class="nav navbar-nav">
             <li class="nav-item fw-bold fs-5">
-              <a class="nav-link" href="#">CHARACFTERS</a>
+              <a class="nav-link" href="#">CHARACTERS</a>
             </li>
             <li class="nav-item fw-bold fs-5">
               <a class="nav-link active" href="#" aria-current="page">COMICS<span class="visually-hidden">(current)</span></a>

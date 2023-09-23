@@ -2,7 +2,30 @@
   export default {
     data() {
       return {
-        
+        card: '',
+        cards: [
+            {
+                name: 'DIGITAL COMICS',
+                image: 'src/assets/img/buy-comics-digital-comics.png'
+            },
+            {
+                name: 'DC MERCHANDISE',
+                image: 'src/assets/img/buy-comics-merchandise.png'
+            },
+            {
+                name: 'SUBSCRIPTION',
+                image: 'src/assets/img/buy-comics-subscriptions.png'
+            },
+            {
+                name: 'COMIC SHOP LOCATOR',
+                image: 'src/assets/img/buy-comics-shop-locator.png'
+            },
+            {
+                name: 'DC POWER VISA',
+                image: 'src/assets/img/buy-dc-power-visa.svg'
+            },
+            
+        ]
       }
     }
   }
@@ -19,25 +42,9 @@
     <div class="merchandise position-relative">
         <div class="container ps-0 pe-0 pt-5 pb-5 d-flex justify-content-between align-items-center">
 
-            <a class="text-white text-decoration-none" href="#">
-                <img height="70px" src="../assets/img/buy-comics-digital-comics.png" alt="">
-                <span class="ps-3 fs-5">DIGITAL COMICS</span>
-            </a>
-            <a class="text-white text-decoration-none" href="#">
-                <img height="70px" src="../assets/img/buy-comics-merchandise.png" alt="">
-                <span class="ps-3 fs-5">DIGITAL COMICS</span>
-            </a>
-            <a class="text-white text-decoration-none" href="#">
-                <img height="70px" src="../assets/img/buy-comics-subscriptions.png" alt="">
-                <span class="ps-3 fs-5">DIGITAL COMICS</span>
-            </a>
-            <a class="text-white text-decoration-none" href="#">
-                <img height="70px" src="../assets/img/buy-comics-shop-locator.png" alt="">
-                <span class="ps-3 fs-5">DIGITAL COMICS</span>
-            </a>
-            <a class="text-white text-decoration-none" href="#">
-                <img height="50px" src="../assets/img/buy-dc-power-visa.svg" alt="">
-                <span class="ps-3 fs-5">DIGITAL COMICS</span>
+            <a v-for="card in cards" class="text-white text-decoration-none" href="#">
+                <img style="height: 80px;" :src="card.image" alt="">
+                <span class="ps-3">{{card.name}}</span>
             </a>
     
         </div>
