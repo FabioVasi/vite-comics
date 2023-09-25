@@ -1,6 +1,6 @@
 <script>
-import comics from "../comics.js";
-import ComicItem from "./ComicItem.vue";
+import comics from "../comics.js"; // array of comics import
+import ComicItem from "./ComicItem.vue"; // import comics components connection 
   export default {
     name: 'MainComics',
     components: {
@@ -9,7 +9,7 @@ import ComicItem from "./ComicItem.vue";
     data() {
       return {
         comics,
-        card: '',
+        card: '', //merchandise
         cards: [
             {
                 name: 'DIGITAL COMICS',
@@ -33,7 +33,7 @@ import ComicItem from "./ComicItem.vue";
             },
             
         ],
-        list: '',
+        list: '', //first list
         lists: [
             {
                 link: 'Characters'
@@ -57,7 +57,7 @@ import ComicItem from "./ComicItem.vue";
                 link: 'News'
             }            
         ],
-        info: '',
+        info: '', // second list
         information: [
             {
                 about: 'Terms Of Use'
@@ -93,7 +93,7 @@ import ComicItem from "./ComicItem.vue";
                 about: 'Contact Us'
             }
         ],
-        site: '',
+        site: '', // third list
         sites: [
             {
                 source: 'DC'
@@ -112,6 +112,9 @@ import ComicItem from "./ComicItem.vue";
             }
         ]
       }
+    },
+    created() {
+        console.log(this.comics);
     }
   }
 </script>
@@ -120,14 +123,12 @@ import ComicItem from "./ComicItem.vue";
 
     <main id="main_comics">
 
-        <div class="jumbotron">
-            
-        </div>
+        <div class="jumbotron"></div>
 
-        <div class="container p-0">
+        <div class="container p-0 text-center pb-3">
             <div class="row row-cols-1 row-cols-sm-3 row-cols-md-6">
 
-                <ComicItem v-for="comic in comics" :image="comic.src" :title="comic.title" />
+                <ComicItem v-for="comic in comics" :image="comic.thumb" :title="comic.title" :price="comic.price" :type="comic.type"/>
                 
             </div>           
         </div>
@@ -178,7 +179,7 @@ import ComicItem from "./ComicItem.vue";
 
 </template>
 
-<style lang="scss">
+<style lang="scss" >
 
 
 </style>
