@@ -3,7 +3,9 @@ export default {
     name: 'ComicItem',
     props: {
         image: 'String',
-        title: 'String'
+        title: 'String',
+        price: 'String',
+        type: 'String'
     }
 }
 </script>
