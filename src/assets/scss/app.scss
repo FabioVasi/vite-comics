@@ -11,6 +11,12 @@
     height: 600px;
     background-size: cover;
 }
+.current{
+    width: 280px;
+    height: 60px;
+    margin-top: -50%;
+    padding: 0.5rem 1rem;
+}
 .comic{
     background-color: $bg_dcmain;
 }

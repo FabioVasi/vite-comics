@@ -125,12 +125,21 @@ import ComicItem from "./ComicItem.vue"; // import comics components connection
 
         <div class="jumbotron"></div>
 
-        <div class="container p-0 text-center pb-3">
-            <div class="row row-cols-1 row-cols-sm-3 row-cols-md-6">
+        <div class="container p-0 pb-3">
+            <button class="current bg-primary text-white fw-medium fs-3 border-0">
+                CURRENT SERIES
+            </button>
+            <div class="row row-cols-1 row-cols-sm-3 row-cols-md-6 mb-4">
 
                 <ComicItem v-for="comic in comics" :image="comic.thumb" :title="comic.series" :price="comic.price" :type="comic.type"/>
                 
-            </div>           
+            </div>
+            <div class="text-center">
+                <button class="bg-primary mt-4 mb-4 border-0 pt-2 pb-2 ps-4 pe-4">
+                    <a class="text-decoration-none text-white fw-medium fs-3" href="#">LOAD MORE</a>
+                </button>
+            </div>
+            
         </div>
 
         <div class="merchandise position-relative">
