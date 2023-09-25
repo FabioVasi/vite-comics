@@ -1,7 +1,11 @@
 <script>
 import comics from "../comics.js";
+import Comic from "./Comic.vue";
   export default {
     name: 'MainComics',
+    components: {
+        Comic
+    },
     data() {
       return {
         comics,
@@ -117,7 +121,7 @@ import comics from "../comics.js";
     <main id="main_comics">
 
         <div class="container p-0">
-            
+            <Comic/>
         </div>
 
         <div class="merchandise position-relative">
