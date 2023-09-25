@@ -128,7 +128,7 @@ import ComicItem from "./ComicItem.vue"; // import comics components connection
         <div class="container p-0 text-center pb-3">
             <div class="row row-cols-1 row-cols-sm-3 row-cols-md-6">
 
-                <ComicItem v-for="comic in comics" :image="comic.thumb" :title="comic.title" :price="comic.price" :type="comic.type"/>
+                <ComicItem v-for="comic in comics" :image="comic.thumb" :title="comic.series" :price="comic.price" :type="comic.type"/>
                 
             </div>           
         </div>

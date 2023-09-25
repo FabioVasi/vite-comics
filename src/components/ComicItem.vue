@@ -15,7 +15,7 @@ export default {
     <div class="col g-4">
         <div class="comic card border-0 rounded-0 h-100">
             <img :src="image" alt="">
-            <div class="card border-0 pt-2 pb-2">
+            <div class="card border-0 rounded-0 p-2 h-100">
                 <h3>{{title}}</h3>
                 <span class="fs-5">{{price}} {{type}}</span>
             </div>
@@ -24,6 +24,6 @@ export default {
 
 </template>
 
-<style scoped>
-
+<style lang="scss" scoped>
+    
 </style>
