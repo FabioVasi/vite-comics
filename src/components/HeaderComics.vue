@@ -3,7 +3,7 @@
   export default {
     data() {
       return {
-        name: 'HeaderComics'
+        name: 'Header'
       }
     },
     components: {
@@ -18,37 +18,37 @@
 
     <div class="container h-100 p-0 d-flex justify-content-between align-items-center">
       <LogoComics/>
-      <nav class="navbar h-100 navbar-expand">
+      <nav class="navbar p-0 h-100 navbar-expand">
           <ul class="nav navbar-nav">
             <li class="nav-item fw-bold fs-5">
-              <a class="nav-link" href="#">CHARACTERS</a>
+              <a class="nav-link pt-5 pb-5" href="#">CHARACTERS</a>
             </li>
             <li class="nav-item fw-bold fs-5">
-              <a class="nav-link active" href="#" aria-current="page">COMICS</a>
+              <a class="nav-link pt-5 pb-5 active" href="#" aria-current="page">COMICS</a>
             </li>
             <li class="nav-item fw-bold fs-5">
-              <a class="nav-link" href="#">MOVIES</a>
+              <a class="nav-link pt-5 pb-5" href="#">MOVIES</a>
             </li>
             <li class="nav-item fw-bold fs-5">
-              <a class="nav-link" href="#">TV</a>
+              <a class="nav-link pt-5 pb-5" href="#">TV</a>
             </li>
             <li class="nav-item fw-bold fs-5">
-              <a class="nav-link" href="#">GAMES</a>
+              <a class="nav-link pt-5 pb-5" href="#">GAMES</a>
             </li>
             <li class="nav-item fw-bold fs-5">
-              <a class="nav-link" href="#">COLLECTIBLES</a>
+              <a class="nav-link pt-5 pb-5" href="#">COLLECTIBLES</a>
             </li>
             <li class="nav-item fw-bold fs-5">
-              <a class="nav-link" href="#">VIDEOS</a>
+              <a class="nav-link pt-5 pb-5" href="#">VIDEOS</a>
             </li>
             <li class="nav-item fw-bold fs-5">
-              <a class="nav-link" href="#">FANS</a>
+              <a class="nav-link pt-5 pb-5" href="#">FANS</a>
             </li>
             <li class="nav-item fw-bold fs-5">
-              <a class="nav-link" href="#">NEWS</a>
+              <a class="nav-link pt-5 pb-5" href="#">NEWS</a>
             </li>
             <li class="nav-item fw-bold fs-5">
-              <a class="nav-link" href="#">SHOP</a>
+              <a class="nav-link pt-5 pb-5" href="#">SHOP</a>
             </li>
           </ul>
       </nav>
@@ -69,7 +69,16 @@
       color: $color_dclogo;
       border-color: $color_dclogo;
       border-bottom: 0.5rem solid;
-    }   
+      
+    }
+    .nav-link:hover{
+        color: $color_dclogo;
+        border-color: $color_dclogo;
+        border-bottom: 0.5rem solid;
+    }
+    .nav-link{
+
+    }
   }
 
 </style>
