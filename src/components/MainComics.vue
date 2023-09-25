@@ -1,7 +1,10 @@
 <script>
+import comics from "../comics.js";
   export default {
+    name: 'MainComics',
     data() {
       return {
+        comics,
         card: '',
         cards: [
             {
@@ -114,7 +117,7 @@
     <main id="main_comics">
 
         <div class="container p-0">
-            <h1 class="text-white pt-5 pb-5 m-0">Content goes here</h1>
+            
         </div>
 
         <div class="merchandise position-relative">

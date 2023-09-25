@@ -24,7 +24,7 @@
               <a class="nav-link" href="#">CHARACTERS</a>
             </li>
             <li class="nav-item fw-bold fs-5">
-              <a class="nav-link active" href="#" aria-current="page">COMICS<span class="visually-hidden">(current)</span></a>
+              <a class="nav-link active" href="#" aria-current="page">COMICS</a>
             </li>
             <li class="nav-item fw-bold fs-5">
               <a class="nav-link" href="#">MOVIES</a>
@@ -58,7 +58,7 @@
 
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
   @use '../assets/scss/partials/variable.scss' as *;
 
@@ -69,7 +69,7 @@
       color: $color_dclogo;
       border-color: $color_dclogo;
       border-bottom: 0.5rem solid;
-    }
+    }   
   }
 
 </style>
