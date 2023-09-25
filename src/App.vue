@@ -4,14 +4,14 @@
   import LogoComics from "./components/LogoComics.vue";
   import MainComics from "./components/MainComics.vue";
   import FooterComics from "./components/FooterComics.vue";
-  import Comic from "./components/Comic.vue";
+  import ComicItem from "./components/ComicItem.vue";
   
   export default {
     components: {
       HeaderComics,
       LogoComics,
       MainComics,
-      Comic,
+      ComicItem,
       FooterComics
     }
   }
