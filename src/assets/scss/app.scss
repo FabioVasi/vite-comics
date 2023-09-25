@@ -6,6 +6,11 @@
     background-color: $bg_dcmain;
     
 }
+.jumbotron{
+    background-image: url(../img/jumbotron.jpg);
+    height: 600px;
+    background-size: cover;
+}
 .merchandise{
     background-color: $color_dclogo;
 }

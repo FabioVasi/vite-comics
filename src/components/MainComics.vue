@@ -120,6 +120,10 @@ import ComicItem from "./ComicItem.vue";
 
     <main id="main_comics">
 
+        <div class="jumbotron">
+            
+        </div>
+
         <div class="container p-0">
             <div class="row row-cols-1 row-cols-sm-3 row-cols-md-6">
 
