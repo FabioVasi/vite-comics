@@ -14,7 +14,7 @@ export default {
     
     <div class="col g-4">
         <div class="comic card border-0 rounded-0 h-100">
-            <img :src="image" alt="">
+            <img style="aspect-ratio: 1 / 1; object-fit: cover;" :src="image" alt="">
             <div class="comic card border-0 rounded-0 p-2 h-100">
                 <h3 class="text-white text-center">{{title}}</h3>
                 <span class="fs-5 text-white text-center">{{price}} {{type}}</span>
