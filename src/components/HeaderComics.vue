@@ -76,9 +76,6 @@
         border-color: $color_dclogo;
         border-bottom: 0.5rem solid;
     }
-    .nav-link{
-
-    }
   }
 
 </style>
